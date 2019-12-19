@@ -1,0 +1,251 @@
+.social-list {
+    background-color: black;
+    border-radius: 20px;
+}
+
+.header {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/cc/Digital_rain_animation_medium_letters_shine.gif");
+    color: white;
+    float: left;
+    height: 100%;
+    overflow-x: hidden;
+    border-right: 5px solid white;
+}
+
+.name {
+    margin: 0px;
+    margin-bottom: 25px;
+}
+
+a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    background-color: transparent;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+
+.profile-image {
+    max-width: 160px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.bio {
+    font-size: 13px;
+    background-color: black;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.bio2 {
+    font-weight: bold;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.btn-primary {
+    width: 35px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    background-color: #54B689;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+hr {
+    border-color: white;
+}
+
+.nav-link {
+    text-align: center;
+    display: block;
+    padding: 10px;
+    font-size: large;
+    color: lightgray;
+    background-color: black;
+    margin: 10px 50px 10px 50px;
+    border-radius: 20px;
+}
+
+.main-wrapper {
+    margin-top: 0;
+    background-image: url("assets/images/trianglifyGreen.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    float: right;
+}
+
+.about-me-section {
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.card-footer {
+    text-align: center;
+}
+
+footer {
+    clear: both;
+    padding: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #54B689;
+    color: black;
+    text-align: center;
+    border: 1px solid black;
+    margin-bottom: 2px;
+}
+
+.tag-line {
+    font-weight: bolder;
+    font-style: italic;
+}
+
+h2 {
+    background-image: url("assets/images/honeycomb.JPG");
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+    border: 2px solid white;
+}
+
+.textLinks {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.textLinks a:hover {
+    text-decoration: none;
+}
+
+.card-img-top {
+    border-bottom: solid 1px black;
+    padding: 5px;
+    background-color: #54B689;
+}
+
+h5 {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.fa-play {
+    margin-right: 50px;
+}
+
+.projects {
+    margin-bottom: 100px;
+}
+
+.card-deck {
+    margin-top: 25px;
+}
+
+
+/*contact page*/
+
+label {
+    float: left;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+    display: block;
+    width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 2px solid #54B689;
+}
+
+textarea {
+    height: 200px;
+}
+
+input[type=submit] {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+    background: #54B689;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+input[type=submit]:hover {
+    background: #077BFF;
+}
+
+.contact {
+    margin-bottom: 50px;
+}
+
+.myInfo {
+    float: right;
+}
+
+.first {
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.second {
+    color: black;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.smaller {
+    font-size: 12px;
+}
+
+#footer {
+    margin-left: 15%;
+}
+
+@media only screen and (max-width: 992px) {
+    .header {
+        position: relative;
+    }
+    #footer {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (min-width:100px) and (max-width:1136px) {
+    .fa-play,
+    .fa-github {
+        margin: 0px;
+    }
+}
