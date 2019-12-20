@@ -84,7 +84,7 @@ hr {
 
 .main-wrapper {
     margin-top: 0;
-    background-image: url("assets/images/trianglifyGreen.PNG");
+    background-image: url("./assets/images/trianglifyGreen.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
