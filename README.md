@@ -3,11 +3,7 @@
 
 My personal portfolio website where you can view my info such as, resume, projects, and contact information.
 
-<<<<<<< HEAD
 Link to the deployed site =>  https://anil1992-rgb.github.io/Personal-Website/
-=======
-Link to the deployed site =>  https://anil1992-rgb.github.io/Personal-Website
->>>>>>> f5fbc5758f8fd4d1416a73d7058cfadde265d913
 
 
 USAGE
